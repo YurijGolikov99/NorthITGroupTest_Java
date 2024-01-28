@@ -3,7 +3,7 @@
 
 
 ## Установка
-1. Клонируйте репозиторий: `https://github.com/ваш-локальный-репозиторий.git`
+1. Клонируйте репозиторий: `https://github.com/YurijGolikov99/NorthITGroupTest_QA.git`
 2. Запустите IntelliJ IDEA.
 3. В верхней панели меню Выберите "Get from VCS".
 4. Выберите Version control: "Git"
