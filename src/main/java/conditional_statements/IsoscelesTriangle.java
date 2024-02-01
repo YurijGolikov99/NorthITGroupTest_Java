@@ -11,17 +11,17 @@ import java.util.Scanner;
 public class IsoscelesTriangle {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите 3 числа: ");
+        System.out.println("Введите 3 числа: ");
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
         double c = scanner.nextDouble();
 
         if (a == b && b == c){
-            System.out.println("треугольник является равносторонним");
+            System.out.println("треугольник является равносторонним.");
         } else if  (a == b || b == c || a == c){
-            System.out.println("треугольник является равнобедренным");
+            System.out.println("треугольник является равнобедренным.");
         } else {
-            System.out.println("треугольник является разносторонним");
+            System.out.println("треугольник является разносторонним.");
         }
 
         scanner.close();

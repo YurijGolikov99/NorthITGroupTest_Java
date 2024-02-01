@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class QuantityNegativeAndPositiveNumbers {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите 4 числа: ");
+        System.out.println("Введите 4 числа: ");
         float numberOne = scanner.nextFloat();
         float numberTwo = scanner.nextFloat();
         float numberTree = scanner.nextFloat();
