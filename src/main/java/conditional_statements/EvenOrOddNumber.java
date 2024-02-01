@@ -14,9 +14,9 @@ public class EvenOrOddNumber {
         long number = scanner.nextLong();
 
         if (number % 2 == 0) {
-            System.out.println("Число чётное");
+            System.out.println("Число чётное.");
         } else {
-            System.out.println("Число нечётное");
+            System.out.println("Число нечётное.");
         }
     }
 }

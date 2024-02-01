@@ -23,7 +23,7 @@ public class ShopProgram {
         int choice = scanner.nextInt();
 
         if (choice < 1 || choice > products.length) {
-            System.out.println("Такого товара нет");
+            System.out.println("Такого товара нет!");
             return;
         } else {
             double price = prices[choice - 1];
